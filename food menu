@@ -1,0 +1,49 @@
+
+int main() 
+{
+
+   int x;
+    scanf("%d",&x);
+	
+	switch(x)
+{
+        case 1:
+        	
+	    printf("food item:idli");
+	    printf("\n price:Rs.25");
+	break;
+	    case2:
+	    	
+	    printf("food item:pizza");
+	    printf("\n price:Rs.300");
+	break;
+	    case 3:
+	    	
+	    printf("food item:sandwich");
+	    printf("\n price:Rs.200");
+	break;
+	    case4:
+	    	
+	    printf("food item:tea");
+	    printf("\n price:Rs.50");
+	break;
+	    case 5:
+	    	
+	    printf("food item:coffee");
+	    printf("\n price:Rs.65");
+	break;
+	    case 6:
+	    	
+	    printf("food item:pasta");
+	    printf("\nprice:Rs.300");
+	break;
+	    default:
+	    
+	    printf("invalid choice");
+	    
+	    return 0;
+	    
+}
+	
+	
+}
